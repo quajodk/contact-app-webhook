@@ -6,12 +6,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": [
-    "heroku"
-  ],
-  "engines": {
-    "node": "10.x"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
