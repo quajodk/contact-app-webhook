@@ -40,12 +40,12 @@ const checkJwt = jwt({
     cache: true,
     rateLimit: true,
     jwksRequestsPerMinute: 5,
-    jwksUri: `https://mikebuildingprojects.auth0.com/.well-known/jwks.json`,
+    jwksUri: `https://dev-tv04xmhk.us.auth0.com/.well-known/jwks.json`,
   }),
 
   // Validate the audience and the issuer.
   audience: "https://dev-tv04xmhk.us.auth0.com/api/v2/",
-  // issuer: `https://mikebuildingprojects.auth0.com`,
+  // issuer: `dev-tv04xmhk.us.auth0.com`,
   algorithms: ["RS256"],
 });
 
