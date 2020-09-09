@@ -44,7 +44,7 @@ const checkJwt = jwt({
   }),
 
   // Validate the audience and the issuer.
-  audience: "https://quajodev.com",
+  audience: "https://dev-tv04xmhk.us.auth0.com/api/v2/",
   // issuer: `dev-tv04xmhk.us.auth0.com`,
   algorithms: ["RS256"],
 });
