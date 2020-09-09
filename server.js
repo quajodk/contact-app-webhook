@@ -34,7 +34,7 @@ app.use(
 // the Auth0 JSON Web Key Set
 const checkJwt = jwt({
   // Dynamically provide a signing key
-  // based on the kid in the header and
+  // based on the token in the header and
   // the signing keys provided by the JWKS endpoint.
   secret: jwksRsa.expressJwtSecret({
     cache: true,
